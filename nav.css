@@ -1,0 +1,57 @@
+.nav1{
+	list-style-type: none;
+}
+
+.design{
+	padding: 10px;
+	border: 1px solid grey;
+	width: 200px;
+	transition: width 0.7s ease;
+}
+
+.one, .two, .three, .four{
+	background-color: black;
+}
+
+ .font1{
+ 	text-decoration:none;
+ 	color: grey;
+ 	font-size: 25px;
+ 	margin-left: 5px;
+
+ }
+
+ .resized{
+ 	font-size: 20px; 
+ 	padding: 5px;
+ 	color:grey;
+ }
+
+ .one:hover{
+ 	background-color: darkorange;
+ }
+
+ .two:hover{
+ 	background-color: darkviolet;
+ }
+
+ .three:hover{
+ 	background-color: green;
+ }
+
+ .four:hover{
+ 	background-color: red;
+ }
+
+.design:hover{
+	width:220px;
+}
+
+.design:hover .resized{
+	color: white;
+	font-size: 25px;
+}
+ .design:hover .font1{
+ 	text-decoration: none;
+ 	color: white;
+ }
